@@ -1,0 +1,86 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.tabela {
+    background-color: rgb(26, 25, 25);
+    padding: 20px;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.elemento {
+    flex: 0 1 5.55556%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px;
+    border-radius: 25%;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+.elemento-vazio {
+    border-width: 0;
+}
+
+.elemento-verde {
+    border-color: rgb(93, 240, 74);
+    color: rgb(93, 240, 74);
+}
+
+.elemento-laranja {
+    border-color: rgb(240, 201, 74);
+    color: rgb(240, 201, 74);
+}
+
+.elemento-amarelo {
+    border-color: rgb(240, 240, 74);
+    color: rgb(240, 240, 74);
+}
+
+.elemento-rosa {
+    border-color: rgb(218, 102, 173);
+    color: rgb(218, 102, 173);
+}
+
+.elemento-rosa-pink {
+    border-color: rgb(243, 166, 213);
+    color: rgb(243, 166, 213);
+}
+
+.elemento-verde-agua {
+    border-color: rgb(30, 152, 223);
+    color: rgb(30, 152, 223);
+}
+
+.elemento-verde-agua-claro {
+    border-color: rgb(155, 213, 247);
+    color: rgb(155, 213, 247);
+}
+
+.elemento-branco {
+    border-color: rgb(205, 229, 243);
+    color: rgb(205, 229, 243);
+}
+
+.elemento-azul {
+    border-color: rgb(18, 52, 247);
+    color: rgb(18, 52, 247);
+}
+
+.elemento-azul-claro {
+    border-color: rgb(62, 89, 241);
+    color: rgb(62, 89, 241);
+}
+
+.elemento-verde-amarelo {
+    border-color: rgb(149, 247, 20);
+    color: rgb(149, 247, 20);
+}
